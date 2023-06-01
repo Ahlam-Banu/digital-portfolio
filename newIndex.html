@@ -68,7 +68,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 110vh;
+      height: 100vh;
     }
 
       
@@ -82,22 +82,32 @@
       border: 1px solid #000000;
     } */
 
-    .ellipse {
-      position: absolute;
-      left: 353px;
-      top: 219px;
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      border: 1px solid black;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Add any additional styling for the container as needed */
     }
-    
-    .intro {
-      font-size: 18px;
+
+    .circle-border {
+        position: absolute;
+        left: 353px;
+        top: 219px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Add any additional styling for the circle border as needed */
+        }
+
+    .circle-text {
+    font-size: 18px;
+    /* Add any additional styling for the text as needed */
     }
+
     .social-icons {
       display: flex;
       justify-content: center;
@@ -130,31 +140,29 @@
     </nav>
   </header>
   
-  <main>
-    <!-- <section>
-      <h2>HI, I AM <span class="ellipse">AHLAM.</span></h2>
-      <p>some text thats supposed to be below "HI, I AM AHLAM"</p>
-    </section> -->
-    <div class="ellipse">
-      <span class="intro">HI, I AM AHLAM.</span>
-    </div>
+  <main>      
 
-    <div class="center-container">
-      <img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\MyPic.jpg" alt="My Picture" style="width: 496px; height: 756px">
+    <div class="container">
+        <div class="circle-border">
+          <span class="circle-text">Your Text Here</span>
+        </div>
+    </div>
+    <div class="center-container">          
+        <img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\MyPic.jpg" alt="My Picture" style="width: 496px; height: 756px">
     </div>
     
-    <!-- <section>
+    <section>
       <h2>Services</h2>
       <ul>
         <li>Service 1</li>
         <li>Service 2</li>
         <li>Service 3</li>
       </ul>
-    </section> -->
+    </section>
     
     <section>
-      <!-- <h2>Contact</h2> -->
-      <p>he quick brown fox jumps over the lazy dog. This sentence is Often used as a test to demonstrate.</p>
+      <h2>Contact</h2>
+      <p>Here, you can provide your contact information such as phone number, email, or a contact form.</p>
     </section>
   </main>
   
