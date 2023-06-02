@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ahlam Banu</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFFFFF;
+    }
+
+    header {
+      color: black;
+      padding: 5px;
+    }
+    
+    h1 {
+      margin: 0;
+      font-size: 25px;
+      font-family: "Pacifico, 'Segoe UI', monospace";
+      text-align: center;
+    }
+
+    .SmallEllipse {
+      position: absolute;
+      left: 55px;
+      top: 100px;
+      width: 100px;
+      height: 95px;
+      border-radius: 50%;
+      background-color: #7E5421A1;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+    }
+
+    .BigEllipse {
+      position: absolute;
+      right: 180px;
+      bottom: 230px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      cursor: pointer;
+    }
+
+    ul {
+      list-style: none;/* disc before */
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: black;
+      text-decoration: none;
+    }
+
+    nav ul li.right {
+        float: right;
+    }
+
+    nav ul li.underline {
+        text-decoration: underline;
+    }
+
+    main {
+      padding: 5px;
+    }
+
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-icons a {
+      margin-right:5px;
+      margin-top: 15px;
+      margin-left:5px; /* Adjust the margin value to add space between icons*/
+    }
+    
+    footer {
+      color: black;
+      /* padding: 10px; */
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ahlam Fazlu Rahman</h1>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="right underline"><a href="my_Main_Resume.pdf">Download CV</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="SmallEllipse">
+        </div>
+        <h1 style="font-size: 20px; position: absolute; left: 70px; top: 140px;">MY BACKGROUND</h1>
+        <p style="position: absolute; left: 80px; top: 160px;">The quick brown fox jumps over the lazy dog.<br> This sentence is Often used as a test to <br>demonstrate. he quick brown fox jumps over <br>the lazy dog. This sentence is Often used as a <br> to demonstrate.</p>
+        <div class="center-container">
+            <h1 style="font-size: 70px; position:absolute; left: 450px; top: 210px; font-weight: normal;">ABOUT ME</h1>
+            <img src="Picture2.jpg" alt="Second Picture" style="width:255px; height:378px">
+        </div>
+        <a href="portfolio.html">
+            <div class="BigEllipse">
+                <p style="color: black;">VIEW MY PORTFOLIO</p>
+            </div>
+        </a>
+        
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ahlam-banu-2208401a3/"><img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px"/></a>
+            <a href="https://github.com/Ahlam-Banu"><img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\github.png" alt="GitHub" style="width: 20px; height: 20px"/></a>
+            <a href="mailto:ahlambanu.univ@gmail.com"><img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\email.png" alt="E-mail" style="width: 20px; height: 20px"/></a>
+            <a href="https://www.facebook.com/"><img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\facebook.png" alt="Facebook" style="width: 20px; height: 20px"/></a><!--ADD facebook account -->
+          </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 All rights reserved.</p>
+    </footer> 
+</body>
+</html>

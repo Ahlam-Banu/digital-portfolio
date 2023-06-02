@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahlam's Digital Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F6F5F1;
+    }
+    
+    header {
+      color: black;
+      padding: 5px;
+    }
+    
+    h1 {
+      margin: 0;
+      font-size: 25px;
+      font-family: "Pacifico, 'Segoe UI', monospace";
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    
+    nav ul li a {
+      color: black;
+      text-decoration: none;
+    }
+
+    nav ul li.right {
+        float: right;
+    }
+
+    nav ul li.underline {
+        text-decoration: underline;
+    }
+    
+    main {
+      padding: 5px;
+    } 
+
+    section {
+      margin-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;/* disc before */
+    }
+
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ellipse {
+      position: absolute;
+      left: 380px;
+      top: 80px;
+      width: 165px;
+      height: 160px;
+      border-radius: 50%;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .AboutMe {
+      position: absolute;
+      right: 310px;
+      bottom: 255px;
+      font-family: "Pacifico, 'Segoe UI', monospace";
+      font-size: 17px;
+    }
+
+    .circle-button {
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      right: 300px;
+      bottom: 285px;
+      border-radius: 50%;
+      background-color: #e0e0e0;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .arrow {
+      width: 20px;
+      height: 20px;
+      border-top: 3px solid #000;
+      border-right: 3px solid #000;
+      transform: rotate(45deg);
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-icons a {
+      margin-right:5px;
+      margin-top: 15px;
+      margin-left:5px; /* Adjust the margin value to add space between icons*/
+    }
+    
+    footer {
+      color: black;
+      /* padding: 10px; */
+      text-align: center;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ahlam Fazlu Rahman</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li class="right underline"><a href="my_Main_Resume.pdf">Download CV</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="ellipse">
+      <h1 style="font-size: 16px; text-align: center;">HI &#x1F44B; I'M AHLAM.</h1>
+    </div>
+    <div class="center-container">
+      <img src="MyPic.jpg" alt="My Picture" style="width:363px; height:525px">
+    </div>
+    
+    <a href="about.html">
+      <button class="circle-button">
+        <span class="arrow"></span>
+      </button>
+    </a>
+    
+    <span class="AboutMe">About Me</span>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/ahlam-banu-2208401a3/"><img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px"/></a>
+      <a href="https://github.com/Ahlam-Banu"><img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\github.png" alt="GitHub" style="width: 20px; height: 20px"/></a>
+      <a href="mailto:ahlambanu.univ@gmail.com"><img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\email.png" alt="E-mail" style="width: 20px; height: 20px"/></a>
+      <a href="https://www.facebook.com/"><img src="C:\Users\Ahlam\Desktop\github\DigitalPortfolio\facebook.png" alt="Facebook" style="width: 20px; height: 20px"/></a><!--ADD facebook account -->
+    </div>  
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 All rights reserved.</p>
+  </footer>
+</body>
+</html>
